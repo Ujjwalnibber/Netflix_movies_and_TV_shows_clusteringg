@@ -45,3 +45,38 @@ Elbow Method
 Hierarchical Clustering
 Agglomerative hierarchical Clustering
 After this we shall conclude our project and write some insights
+
+**Conclusions:**
+
+In this project, we worked on a text clustering problem wherein we had to group the Netflix shows into certain clusters such that the shows within a cluster are similar to each other and the shows in different clusters are dissimilar to each other.
+
+The dataset contained about 7787 records, and 12 attributes.
+
+We began by dealing with the dataset's missing values and doing exploratory data analysis (EDA).
+
+We had performed lots of operations over the dataset to find out some very useful information from it. Netflix has more Movies than TV shows.
+
+Also, majority of the shows were produced in the United States, and the majority of the shows on Netflix were created for adults and young adults age group.
+
+Most of the number of Movies and TV shows produced by United States followed by India.
+
+Most of the Content on Netflix (Movies and TV shows combined) is highest in year 2018
+
+Majority of the movies range in length from 90 to 120 minutes and the majority of TV shows have only one season.
+
+Dramas, International movies are the most popular Genres on Netflix.
+
+Most of title have words like christmas,love,girl common.
+
+When it comes to movie documentaries is most like genre and in case of shows kid's Tv
+
+It was decided to cluster the data based on the attributes: director, cast, country, genre, and description. The values in these attributes were tokenized, preprocessed, and then vectorized using TFIDF vectorizer.
+Through TFIDF Vectorization, we created a total of 20000 attributes.
+
+We used Principal Component Analysis (PCA) to handle the curse of dimensionality. 4000 components were able to capture more than 80% of variance, and hence, the number of components were restricted to 4000.
+
+We first built clusters using the k-means clustering algorithm, and the optimal number of clusters came out to be 6. This was obtained through the elbow method and Silhouette score analysis.
+
+Then clusters were built using the Agglomerative clustering algorithm, and the optimal number of clusters came out to be 12. This was obtained after visualizing the dendrogram.
+
+A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will show 10 recommendation We had performed lots of operations over the dataset to find out some very useful information from it. Netflix has more Movies than TV shows.
