@@ -1,4 +1,4 @@
-Problem Statement
+**Problem Statement**
 
 This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine.
 
@@ -6,7 +6,7 @@ In 2018, they released an interesting report which shows that the number of TV s
 
 Integrating this dataset with other external datasets such as IMDB ratings, rotten tomatoes can also provide many interesting finding.
 
-Project Summary
+**Project Summary**
 
 
 THE Netflix movies and TV shows clustering is a project where we shall draw insights from our data and will clusterr our dataset into relevant cluster. We shall start by first knowing our data but before that we need to import important libraries.Once done we shall now start by mounting our drive and then loading our dataset.
